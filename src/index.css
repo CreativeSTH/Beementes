@@ -1,0 +1,33 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --gradient-title: linear-gradient(to right, #fc72ff, #8f68ff, #ffffe7, #8f68ff, #fc72ff); 
+  --gradient-text: linear-gradient(to right, #fc72ff, #f6f3ff, #ffff00, #eee8ff, #fc72ff); 
+}
+*, *::after, *::before{
+  box-sizing: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+html{
+  box-sizing: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+@keyframes animate-gradient{
+  0%{
+      background-position: 0%;
+  }
+  100%{
+      background-position: 200%;
+  }
+  
+}
