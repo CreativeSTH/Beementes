@@ -7,7 +7,7 @@ function ComingSoon() {
         <img className="cs__card__logo" src={bailarina} alt="Logo de Beementes" />
         <article className="cs__card">
             <h1 className="cs__card__title">Coming Soon</h1>
-            <p className="cs__card__text">En BEEMENTES estamos creando un sitio web increíble, próximamente estará disponeble <br></br> gracias por la comprensión</p>
+            <p className="cs__card__text">En BEEMENTES estamos creando un sitio web increíble, próximamente estará disponible <br></br> gracias por la comprensión</p>
         </article>
     </section>
   )
