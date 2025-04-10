@@ -2,7 +2,9 @@
     position: relative;
     min-height: 100dvh;
     width: 100%;
-    background-color: rgb(14, 0, 17);
+    background-image: url("/design/img-bg1.webp");
+    background-position: 5%, 0%;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +48,8 @@
     align-items: center;
     flex-direction: column;
     padding: 40px;
-    background: rgba(240, 162, 247, 0.089); 
+    background: rgb(59 59 59 / 9%);
+
     border-radius: 15px; 
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
     backdrop-filter: blur(5px); 

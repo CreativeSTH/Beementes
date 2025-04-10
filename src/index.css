@@ -31,3 +31,23 @@ html{
   }
   
 }
+@keyframes subtleDrift {
+  0% {
+    transform: translate(0, 0);
+}
+20% {
+    transform: translate(20px, 25px);
+}
+40% {
+    transform: translate(-22px, 28px);
+}
+60% {
+    transform: translate(24px, -23px);
+}
+80% {
+    transform: translate(-25px, 22px);
+}
+100% {
+    transform: translate(21px, 26px);
+}
+}

@@ -1,0 +1,40 @@
+.contact__hero{
+    width: 100%;
+    min-height: 100dvh;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero__contact__title{
+    width: 300px;
+    height: 300px;
+    background-color: #c8f08d;
+    position: absolute;
+    z-index: 4;
+    top: 50px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .hero__contact__text{
+        font-family: "forma-djr-text", sans-serif;
+        text-align: center;
+        color: block;
+    }
+}
+.hero__plecas__a{
+    z-index: 5;
+    position: absolute;
+    width: 300px;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact_title{
+    color:white;
+}

@@ -1,0 +1,99 @@
+.portfolio__hero{
+    width: 100%;
+    min-height: 100dvh;
+    background-image: url('/design/bg-img2.webp');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    color: white;
+    font-family: "forma-djr-text", sans-serif;
+    position: relative;
+
+    &::before{
+        content: "";
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background-color: #c8f08d;
+        position: absolute;
+        left: 50%;
+        top: 41%;
+        transform: translate(-50%, -50%);
+        filter: blur(10px);
+    }
+    &::after{
+        content: "";
+        width: 150px;
+        height: 150px;
+        background-color: #0257ce;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 26px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+}
+.portfolio__hero__title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.portfolio__hero__text{
+    text-align: justify;
+    font-size: 15px;
+}
+.portfolio__hero__buttom{
+    padding: 5px 50px;
+    border: 2px solid #c8f08d;
+    border-radius: 38px;
+    text-align: center;
+    background: #96969663;
+}
+.hero__article{
+    width: 100% !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    width: 200px;
+}
+.portfolio__hero__text__2{
+    font-size: 15px;
+    text-align: center;
+    z-index: 3;
+}
+.cloud{
+    height: 180px;
+    width: 100px;
+    background-color: #bbbbbb52;
+    position: absolute;
+    left: 20%;
+    top: 36%;
+    transform: translate(-50px, -50px);
+    border-radius: 47px;
+}
+.cloud2{
+    height: 180px;
+    width: 100px;
+    background-color: #bbbbbb52;
+    position: absolute;
+    left: 50%;
+    top: 36%;
+    transform: translate(-50px, -50px);
+    border-radius: 47px;
+}
+.cloud3{
+    height: 180px;
+    width: 100px;
+    background-color: #bbbbbb52;
+    position: absolute;
+    left: 80%;
+    top: 36%;
+    transform: translate(-50px, -50px);
+    border-radius: 47px;
+}
